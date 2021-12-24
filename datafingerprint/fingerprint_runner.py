@@ -1,5 +1,9 @@
 ################@Author: Arpita Joshi###########################
-###########  Modifications to Denise's and Jewel's code  to get one fingerprint vector for each row entry in a JSON object (one file with patients as different rows)######
+###########  Modifications to Denise's and Jewel's code  to get:
+#1. One fingerprint vector for each row entry in a JSON object (one file with patients as different rows)######
+#2. Mantissa encoding: taking into acocunt exponent weight for concordance with Perl version
+#3. add_vector_value function rewritten for concordance with Perl version
+#4. Bug fix that prevented vector value computation of numbers
 
 #from Json2Vec import *
 import sys
