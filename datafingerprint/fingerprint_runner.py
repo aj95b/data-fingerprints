@@ -7,6 +7,7 @@ import json
 import itertools
 #from json2fp import *
 import pandas as pd
+import math
 
 
 def isnumeric(n):
